@@ -1,0 +1,25 @@
+[project]
+name = "rubric"
+version = "0.1.0"
+description = "rubric using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.119.0,<1.0.0",
+    "flask>=3.0.3,<4.0.0",
+    "flask-cors>=4.0.0,<5.0.0"
+]
+
+[project.scripts]
+rubric = "rubric.main:run"
+run_crew = "rubric.main:run"
+train = "rubric.main:train"
+replay = "rubric.main:replay"
+test = "rubric.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

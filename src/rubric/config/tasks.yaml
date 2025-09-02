@@ -1,0 +1,71 @@
+question_analysis_task:
+  description: >
+    Analyze the provided question paper text: {question_paper_text}
+    
+    For each question, determine:
+    - Question type (multiple choice, short answer, long answer, diagram-based, etc.)
+    - Cognitive level (knowledge, comprehension, application, analysis, synthesis, evaluation)
+    - Subject area and topic
+    - Estimated difficulty level
+    - Expected answer format
+    - Mark allocation
+    Create a structured analysis that will help in rubric development.
+  expected_output: >
+    A detailed analysis report containing:
+    - Total number of questions identified
+    - Question breakdown by type and cognitive level
+    - Individual question details with ID, text, marks, and classification
+    - Any questions that appear to reference diagrams or visual elements
+  agent: question_analyzer
+
+diagram_interpretation_task:
+  description: >
+    Analyze the diagrams, charts, graphs, or visual elements from the VLM description: {vlm_description}
+    
+    For each diagram:
+    - Provide a detailed description of visual elements
+    - Identify the subject area and educational purpose
+    - Determine which question(s) the diagram relates to from the question analysis: {question_analysis_results}
+    - Explain the relationship between the diagram and associated questions
+    - Identify key components that students should recognize or analyze
+    Map each diagram to its corresponding question number from the question analysis.
+  expected_output: >
+    A comprehensive diagram analysis report containing:
+    - Description of each diagram with key visual elements
+    - Educational purpose and subject classification
+    - Question mapping (which questions relate to which diagrams)
+    - Key components students should identify or analyze
+    - Suggested assessment criteria for diagram-based responses
+  agent: diagram_interpreter
+
+rubric_generation_task:
+  description: >
+    Using the question analysis results: {question_analysis_results} and diagram interpretation results: {diagram_interpretation_results}, 
+    generate detailed grading rubrics for each question. 
+    
+    Each rubric should follow the specified JSON format and include:
+    - Question ID and text
+    - Mark allocation  
+    - Detailed grading criteria
+    - Reference answers
+    - Expected answer type
+    - For diagram-based questions, include visual analysis criteria
+    Ensure rubrics are fair, measurable, and provide clear guidance for consistent grading.
+  expected_output: >
+    A complete JSON array of rubrics following this exact format:
+    [
+      {
+        "id": 1,
+        "question": "Question text here",
+        "marks": number,
+        "criteria": {
+          "key_concept": "Main concept or definition required",
+          "examples": ["Example 1", "Example 2"],
+          "additional_points": ["Point 1", "Point 2"]
+        },
+        "reference_answer": "Complete reference answer",
+        "expected_answer_type": "textual/diagram-based/numerical/mixed"
+      }
+    ]
+    Each rubric must be comprehensive and ready for immediate use by educators.
+  agent: rubric_designer

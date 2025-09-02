@@ -1,0 +1,17 @@
+2025-08-28 12:30:30,661 - rubric.main - INFO - Running rubric generation with default inputs
+2025-08-28 12:30:30,661 - rubric.main - INFO - Starting rubric generation process
+2025-08-28 12:30:30,661 - rubric.main - INFO - Question text length: 612
+2025-08-28 12:30:30,661 - rubric.main - INFO - VLM description length: 728
+2025-08-28 12:30:30,917 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-08-28 12:30:39,328 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 12:30:39,444 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-28 12:30:39,516 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-08-28 12:30:51,089 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 12:30:51,116 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-28 12:30:51,171 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-08-28 12:31:01,813 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 12:31:01,822 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-08-28 12:31:01,870 - rubric.main - INFO - Rubric generation completed successfully
