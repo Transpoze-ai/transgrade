@@ -33,7 +33,7 @@ def process_rubric(question_paper_text, vlm_description):
         return result
     except Exception as e:
         raise Exception(f"An error occurred while running the crew: {e}")
-
+#hi
 @app.route('/rubric/generate-rubric', methods=['POST'])
 def generate_rubric():
     """
