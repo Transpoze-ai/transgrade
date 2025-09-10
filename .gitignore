@@ -1,8 +1,0 @@
-.env
-__pycache__/
-.DS_Store
-
-rubric/README.md
-rubric/requirements.txt
-rubric/rubric_service.log
-rubric/uv.lock
