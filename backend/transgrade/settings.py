@@ -63,11 +63,11 @@ WSGI_APPLICATION = 'transgrade.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'transgrade_db',  # The database you created in RDS
-        'USER': 'postgres',       # Master user of your RDS instance
-        'PASSWORD': 'Sreekar123',  # Your RDS master password
-        'HOST': 'transgrade-1.ckfpdrxrvjss.ap-south-1.rds.amazonaws.com',
-        'PORT': '5432',
+        'NAME': os.getenv('DB_NAME'),  # The database you created in RDS
+        'USER': os.getenv('DB_USER'),,       # Master user of your RDS instance
+        'PASSWORD': os.getenv('DB_PASSWORD'),  # Your RDS master password
+        'HOST': os.getenv('DB_HOST'),
+        'PORT': os.getenv('DB_PORT'),
         'OPTIONS': {
             'sslmode': 'require',  # Ensures encrypted connection
         },
@@ -200,5 +200,4 @@ PIPELINE_SETTINGS = {
         'qa_mapping': 600,       # 10 minutes
         'grading': 600,          # 10 minutes
     },
-    'OPENAI_API_KEY': os.environ.get('OPENAI_API_KEY'),
 }
