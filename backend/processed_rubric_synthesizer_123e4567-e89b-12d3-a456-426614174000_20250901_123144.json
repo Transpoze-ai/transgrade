@@ -1,0 +1,637 @@
+[
+  {
+    "criteria": {
+      "additional_points": [
+        "The mention of the specific event or scenario in the passage."
+      ],
+      "examples": [
+        "The king thought about..."
+      ],
+      "key_concept": "Identify and articulate the specific thought that came to the king as described in the passage."
+    },
+    "expected_answer_type": "textual",
+    "id": "Q1",
+    "marks": 2,
+    "question": "What thought came to a king?",
+    "reference_answer": "The thought that came to the king was about finding answers to his important questions."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Provide a concise numerical or textual response indicating the count."
+      ],
+      "examples": [
+        "Three things",
+        "Four things"
+      ],
+      "key_concept": "Identify the number of specific things the king wanted to know based on the passage."
+    },
+    "expected_answer_type": "numerical",
+    "id": "Q2",
+    "marks": 2,
+    "question": "How many things he wanted to know?",
+    "reference_answer": "The king wanted to know three things."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Mention the nature of the promise, such as a reward or title."
+      ],
+      "examples": [
+        "The king promised a reward...",
+        "The king offered..."
+      ],
+      "key_concept": "Specify the promise made by the king according to the passage."
+    },
+    "expected_answer_type": "textual",
+    "id": "Q3",
+    "marks": 2,
+    "question": "What did the king promise to one who answers his questions?",
+    "reference_answer": "The king promised a great reward to the person who could answer his questions."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Correct selection of option with possible justification in the text."
+      ],
+      "examples": [
+        "Messengers",
+        "Ministers"
+      ],
+      "key_concept": "Select the correct group sent by the king as indicated in the text."
+    },
+    "expected_answer_type": "multiple choice",
+    "id": "Q4",
+    "marks": 2,
+    "question": "Whom did the king send throughout his kingdom? [A] Messengers [B] Ministers [C] His sons",
+    "reference_answer": "A. Messengers"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Accurate response based on passage details."
+      ],
+      "examples": [
+        "Wise men",
+        "Children"
+      ],
+      "key_concept": "Select the group that came to the king as per the passage."
+    },
+    "expected_answer_type": "multiple choice",
+    "id": "Q5",
+    "marks": 2,
+    "question": "Who came to the king to answer his three questions? [A] Many children [B] Many wise men [C] Many soldiers",
+    "reference_answer": "B. Many wise men"
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [
+        "He wore a bushy tail"
+      ],
+      "key_concept": "Identification of the object that was used as a tail"
+    },
+    "expected_answer_type": "textual",
+    "id": 1,
+    "marks": 1,
+    "question": "What did he wear for tail?",
+    "reference_answer": "He wore a bushy tail for a tail."
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [
+        "The overcoat was brown"
+      ],
+      "key_concept": "Color identification of the overcoat"
+    },
+    "expected_answer_type": "textual",
+    "id": 2,
+    "marks": 1,
+    "question": "What colour was the overcoat?",
+    "reference_answer": "The overcoat's color was brown."
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [],
+      "key_concept": "Selection of the correct item he ate"
+    },
+    "expected_answer_type": "multiple choice",
+    "id": 3,
+    "marks": 1,
+    "question": "He sat up strait to eat",
+    "reference_answer": "A"
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [],
+      "key_concept": "Selection of the correct action he liked"
+    },
+    "expected_answer_type": "multiple choice",
+    "id": 4,
+    "marks": 1,
+    "question": "He liked to tease and",
+    "reference_answer": "A"
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [],
+      "key_concept": "Identification of the character in the stanza"
+    },
+    "expected_answer_type": "multiple choice",
+    "id": 5,
+    "marks": 1,
+    "question": "Who was He mentioned in above stanza",
+    "reference_answer": "A"
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [
+        "Abbu Khan"
+      ],
+      "key_concept": "Identification of the character related to the goats"
+    },
+    "expected_answer_type": "textual",
+    "id": 6,
+    "marks": 1,
+    "question": "Who was little unlucky in the matter of goats?",
+    "reference_answer": "Abbu Khan was little unlucky in the matter of goats."
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [
+        "Into the hills"
+      ],
+      "key_concept": "Identification of the place where goats disappear"
+    },
+    "expected_answer_type": "textual",
+    "id": 7,
+    "marks": 1,
+    "question": "Where will the goats disappear at night?",
+    "reference_answer": "The goats will disappear into the hills at night."
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [
+        "The leopards"
+      ],
+      "key_concept": "Identification of the subject goats hate"
+    },
+    "expected_answer_type": "textual",
+    "id": 8,
+    "marks": 1,
+    "question": "Who do the goats in hilly region hate?",
+    "reference_answer": "The goats in the hilly region hate the leopards."
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [
+        "Mountain goats"
+      ],
+      "key_concept": "Description of the goats owned by Abbu Khan"
+    },
+    "expected_answer_type": "textual",
+    "id": 9,
+    "marks": 1,
+    "question": "What kind of goats were of Abbu Khan?",
+    "reference_answer": "Abbu Khan's goats were mountain goats."
+  },
+  {
+    "criteria": {
+      "additional_points": [],
+      "examples": [
+        "Freedom"
+      ],
+      "key_concept": "Identification of what the goats loved"
+    },
+    "expected_answer_type": "textual",
+    "id": 10,
+    "marks": 1,
+    "question": "What did the goats love?",
+    "reference_answer": "The goats loved freedom."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Identify the type of visual representation as a pie chart",
+        "General understanding of sales comparison."
+      ],
+      "examples": [
+        "The chart shows the sales distribution of different fruits."
+      ],
+      "key_concept": "Interpretation of overall data representation"
+    },
+    "expected_answer_type": "textual",
+    "id": 1,
+    "marks": 1,
+    "question": "What does the pie chart show?",
+    "reference_answer": "The pie chart shows the sales distribution of different fruits."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Accurate count of segments representing fruit types."
+      ],
+      "examples": [
+        "Total of 5 types of fruits are mentioned."
+      ],
+      "key_concept": "Counting distinct segments in the pie chart"
+    },
+    "expected_answer_type": "numerical",
+    "id": 2,
+    "marks": 1,
+    "question": "How many types of fruits mentioned in the chart?",
+    "reference_answer": "5"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Correct name of the fruit corresponding to the largest slice."
+      ],
+      "examples": [
+        "The largest segment representing the highest sales of fruit."
+      ],
+      "key_concept": "Identifying the largest segment in the pie chart"
+    },
+    "expected_answer_type": "textual",
+    "id": 3,
+    "marks": 1,
+    "question": "Which is the highest selling fruit?",
+    "reference_answer": "Apples"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Correct name of the fruit corresponding to the smallest slice."
+      ],
+      "examples": [
+        "The smallest segment representing the least sales of fruit."
+      ],
+      "key_concept": "Identifying the smallest segment in the pie chart"
+    },
+    "expected_answer_type": "textual",
+    "id": 4,
+    "marks": 1,
+    "question": "Which fruit is sold the least in the shop?",
+    "reference_answer": "Grapes"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Precision in noting the exact percentage value."
+      ],
+      "examples": [
+        "Look for the segment labeled 'Oranges' to find its percentage."
+      ],
+      "key_concept": "Extracting percentage value from the pie chart"
+    },
+    "expected_answer_type": "numerical",
+    "id": 5,
+    "marks": 1,
+    "question": "What is the percentage of sales of Oranges?",
+    "reference_answer": "20%"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Logical flow and relevance.",
+        "Accurate representation of lesson themes and character dynamics."
+      ],
+      "examples": [
+        "Engaging conversation reflecting the characters' personalities.",
+        "Use of context from the lesson to justify dialogue content."
+      ],
+      "key_concept": "Synthesis and creativity in crafting a dialogue based on characters Nishad and Maya regarding Mr. Nath."
+    },
+    "expected_answer_type": "textual",
+    "id": "I.A",
+    "marks": 10,
+    "question": "Based on the lesson [CATCHING A CROOK] the expert detectives Nishad and Maya: Write a possible conversation between Nishad and Maya about Mr. Nath.",
+    "reference_answer": "A dialogue that accurately portrays the characteristics of Nishad and Maya discussing their observations about Mr. Nath with evidence from the lesson 'CATCHING A CROOK'."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Logical progression and coherence.",
+        "Engagement and vivid description."
+      ],
+      "examples": [
+        "A clear and engaging sequence of events.",
+        "Descriptive language enhancing the narrative."
+      ],
+      "key_concept": "Narrative coherence and creativity in describing Gopal's experience with the Hilsa fish and the king's award."
+    },
+    "expected_answer_type": "textual",
+    "id": "I.B",
+    "marks": 10,
+    "question": "Narrate in ten lines about Gopal And Hilsa Fish. How he had bought the Hilsa fish and won the award declared by the king.",
+    "reference_answer": "A coherent narrative covering Gopal's actions and the subsequent award by the king, filled with creative details and logical structure."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Adherence to formal tone and clarity.",
+        "Engagement and relevance of content."
+      ],
+      "examples": [
+        "Correct format with appropriate salutations and structure.",
+        "Clear expression of the event and experiences."
+      ],
+      "key_concept": "Application of formal letter writing format and expression of personal experience about Republic Day celebration."
+    },
+    "expected_answer_type": "textual",
+    "id": "II.A",
+    "marks": 10,
+    "question": "Write a letter to your friend about the Republic Day celebration in your school.",
+    "reference_answer": "A formal letter structured properly with a clear account of the Republic Day celebration experienced at school and its significance."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Emotional engagement and respectfulness.",
+        "Depth and insight in thematic focus."
+      ],
+      "examples": [
+        "Effective use of rhetorical devices.",
+        "Structured speech with clear introduction, body, and conclusion."
+      ],
+      "key_concept": "Evaluative and persuasive language in discussing the contributions of brave soldiers."
+    },
+    "expected_answer_type": "textual",
+    "id": "II.B",
+    "marks": 10,
+    "question": "Write a script for a speech about the Brave Soldiers of India who have sacrificed their lives in the service of the Nation.",
+    "reference_answer": "A well-structured speech employing persuasive language to honor Indian soldiers, highlighting their sacrifices and role in the nation with a strong emotional appeal."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Exact match required",
+        "Partial credit for closely related but incorrect synonym"
+      ],
+      "examples": [
+        "Happy: Joyful",
+        "Sad: Unhappy"
+      ],
+      "key_concept": "Choose correct synonyms for the underlined words."
+    },
+    "expected_answer_type": "textual",
+    "id": 1,
+    "marks": 4,
+    "question": "Write the synonyms for the underlined words choosing from the box.",
+    "reference_answer": "The correct synonym should exactly match the word provided in the box corresponding to the context of the underlined word."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Exact opposite required",
+        "Partial credit for commonly accepted antonyms in specific contexts"
+      ],
+      "examples": [
+        "Hot: Cold",
+        "Big: Small"
+      ],
+      "key_concept": "Identify correct antonyms for the underlined words."
+    },
+    "expected_answer_type": "textual",
+    "id": 2,
+    "marks": 5,
+    "question": "Write the antonyms [opposites] of the underlined words.",
+    "reference_answer": "The correct antonym should be directly opposite in meaning to the underlined word."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Correct grammar and syntax",
+        "Logical coherence between sentences",
+        "Use of conditional tense"
+      ],
+      "examples": [
+        "If it rains, we will cancel the picnic.",
+        "If you study hard, you will pass the exam."
+      ],
+      "key_concept": "Correctly apply the 'If clause' to merge sentences effectively."
+    },
+    "expected_answer_type": "textual",
+    "id": 3,
+    "marks": 6,
+    "question": "Combine the sentences using the If clause.",
+    "reference_answer": "The sentences should be merged using an 'If clause' that makes logical sense and maintains grammatical accuracy."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Understanding definite article usage"
+      ],
+      "examples": [
+        "The English poem"
+      ],
+      "key_concept": "Correct use of articles (a, an, the)"
+    },
+    "expected_answer_type": "textual",
+    "id": 1,
+    "marks": 0.5,
+    "question": "But today ___ English poem was taught in that period.",
+    "reference_answer": "The English poem"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Differentiating between indefinite and definite articles"
+      ],
+      "examples": [
+        "An apple",
+        "The doctor"
+      ],
+      "key_concept": "Correct use of articles (a, an, the)"
+    },
+    "expected_answer_type": "textual",
+    "id": 2,
+    "marks": 1,
+    "question": "The poem says that ___ apple every day keeps ___ doctor away.",
+    "reference_answer": "An apple every day keeps the doctor away."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Use of articles before adjectives"
+      ],
+      "examples": [
+        "An amazing poem"
+      ],
+      "key_concept": "Correct use of articles (a, an, the)"
+    },
+    "expected_answer_type": "textual",
+    "id": 3,
+    "marks": 0.5,
+    "question": "Really it was ___ amazing poem to listen.",
+    "reference_answer": "An amazing poem"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Correct order of adjectives and nouns"
+      ],
+      "examples": [
+        "My sister is very funny."
+      ],
+      "key_concept": "Correct sentence structure"
+    },
+    "expected_answer_type": "textual",
+    "id": 4,
+    "marks": 1,
+    "question": "Funny / is / very / sister / my.",
+    "reference_answer": "My sister is very funny."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Understanding noun-pronoun arrangement"
+      ],
+      "examples": [
+        "My father is an architect."
+      ],
+      "key_concept": "Correct sentence structure"
+    },
+    "expected_answer_type": "textual",
+    "id": 5,
+    "marks": 1,
+    "question": "Architect / an / father / is / my.",
+    "reference_answer": "My father is an architect."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Formulation of questions accurately"
+      ],
+      "examples": [
+        "When will the summer camp start?"
+      ],
+      "key_concept": "Correct sentence structure"
+    },
+    "expected_answer_type": "textual",
+    "id": 6,
+    "marks": 1,
+    "question": "Summer / when / camp / start / will / the?",
+    "reference_answer": "When will the summer camp start?"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Correct selection of subject and predicate"
+      ],
+      "examples": [
+        "Dancing is my favourite hobby."
+      ],
+      "key_concept": "Correct sentence structure"
+    },
+    "expected_answer_type": "textual",
+    "id": 7,
+    "marks": 1,
+    "question": "Hobby / is / dancing / my / favourite.",
+    "reference_answer": "Dancing is my favourite hobby."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Correct verb form in passive constructs"
+      ],
+      "examples": [
+        "Biryani was cooked by Navya."
+      ],
+      "key_concept": "Conversion to passive voice"
+    },
+    "expected_answer_type": "textual",
+    "id": 8,
+    "marks": 2,
+    "question": "Navya cooked Biryani.",
+    "reference_answer": "Biryani was cooked by Navya."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Correct adaptation of active to passive"
+      ],
+      "examples": [
+        "Chess is played by Roja."
+      ],
+      "key_concept": "Conversion to passive voice"
+    },
+    "expected_answer_type": "textual",
+    "id": 9,
+    "marks": 2,
+    "question": "Roja plays chess.",
+    "reference_answer": "Chess is played by Roja."
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Recognition of noun formation rules"
+      ],
+      "examples": [
+        "Treatment"
+      ],
+      "key_concept": "Correct noun form"
+    },
+    "expected_answer_type": "textual",
+    "id": 10,
+    "marks": 1,
+    "question": "Treat",
+    "reference_answer": "Treatment"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Understanding suffix addition forming nouns"
+      ],
+      "examples": [
+        "Behavior"
+      ],
+      "key_concept": "Correct noun form"
+    },
+    "expected_answer_type": "textual",
+    "id": 11,
+    "marks": 1,
+    "question": "Behave",
+    "reference_answer": "Behavior"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Identifying root modifications in nouns"
+      ],
+      "examples": [
+        "Admission"
+      ],
+      "key_concept": "Correct noun form"
+    },
+    "expected_answer_type": "textual",
+    "id": 12,
+    "marks": 1,
+    "question": "Admit",
+    "reference_answer": "Admission"
+  },
+  {
+    "criteria": {
+      "additional_points": [
+        "Application of noun derivatives"
+      ],
+      "examples": [
+        "Attraction"
+      ],
+      "key_concept": "Correct noun form"
+    },
+    "expected_answer_type": "textual",
+    "id": 13,
+    "marks": 1,
+    "question": "Attract",
+    "reference_answer": "Attraction"
+  }
+]
