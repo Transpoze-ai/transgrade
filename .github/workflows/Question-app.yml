@@ -23,22 +23,21 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flask
-        # Add other dependencies from your requirements.txt if you have one
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        # Install from your requirements.txt
+        if [ -f Question_paper_service/requirements.txt ]; then pip install -r Question_paper_service/requirements.txt; fi
     
     - name: Run basic syntax check
       run: |
-        python -m py_compile question_paper_service/app.py
+        python -m py_compile Question_paper_service/app.py
     
     - name: Test Flask app imports
       run: |
-        cd question_paper_service
+        cd Question_paper_service
         python -c "from app import create_app; print('✓ Flask app imports successfully')"
     
-    - name: Check app health endpoint
+    - name: Check directory structure
       run: |
-        cd question_paper_service
-        # Start the app in background and test health endpoint
-        python app.py &
-        sleep 5
-        curl -f http://localhost:5111/apils/health || echo "Health check endpoint not ready yet"
+        echo "Repository structure:"
+        ls -la
+        echo "Question_paper_service contents:"
+        ls -la Question_paper_service/
