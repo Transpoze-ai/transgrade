@@ -13,7 +13,8 @@ from routes.scheduler_routes import scheduler_bp
 # Import new VLM blueprint
 from routes.vlm_routes import vlm_bp
 
-#
+def create_app():
+    app = Flask(__name__)
 
     app.config.from_object(Config)
 
