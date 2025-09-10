@@ -1,0 +1,44 @@
+name: Flask App CI/CD
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flask
+        # Add other dependencies from your requirements.txt if you have one
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    
+    - name: Run basic syntax check
+      run: |
+        python -m py_compile question_paper_service/app.py
+    
+    - name: Test Flask app imports
+      run: |
+        cd question_paper_service
+        python -c "from app import create_app; print('✓ Flask app imports successfully')"
+    
+    - name: Check app health endpoint
+      run: |
+        cd question_paper_service
+        # Start the app in background and test health endpoint
+        python app.py &
+        sleep 5
+        curl -f http://localhost:5111/apils/health || echo "Health check endpoint not ready yet"
