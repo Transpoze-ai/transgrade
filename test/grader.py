@@ -296,7 +296,7 @@ def main():
     Example usage of the RubricGrader system with your student data format
     """
     # Initialize with your OpenAI API key and rubric file path
-      # Replace with your actual API key
+    API_KEY = os.environ.get('OPENAI_API_KEY')  # Replace with your actual API key
     RUBRIC_PATH = "rubrics.json"  # Path to your rubric JSON file
     
     grader = RubricGrader(API_KEY, RUBRIC_PATH)
