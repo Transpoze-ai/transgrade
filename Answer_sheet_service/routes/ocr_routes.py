@@ -77,3 +77,28 @@ def test_django_connection():
             'django_api_url': f"{Config.DJANGO_API_BASE}/",
             'timestamp': datetime.now().isoformat()
         }), 500
+
+@ocr_bp.route('/ocr/health', methods=['GET'])
+def ocr_health_check():
+    """OCR service health check"""
+    try:
+        from config import Config
+        from datetime import datetime
+        
+        return jsonify({
+            'success': True,
+            'service': 'OCR Service',
+            'status': 'healthy',
+            'azure_configured': bool(Config.AZURE_SUBSCRIPTION_KEY and Config.AZURE_ENDPOINT),
+            'django_api_configured': bool(Config.DJANGO_API_BASE),
+            'webhook_configured': bool(Config.WEBHOOK_URL),
+            'timestamp': datetime.now().isoformat()
+        })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'service': 'OCR Service',
+            'status': 'unhealthy',
+            'error': str(e),
+            'timestamp': datetime.now().isoformat()
+        }), 500

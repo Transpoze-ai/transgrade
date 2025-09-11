@@ -2,6 +2,9 @@ import os
 from flask import Flask
 from config import Config
 from routes.converter_routes import converter_bp
+from routes.stamp_routes import stamp_bp
+from routes.ocr_routes import ocr_bp
+  # Add this import
 
 def create_app():
     """Application factory pattern"""
@@ -12,13 +15,15 @@ def create_app():
     
     # Register blueprints
     app.register_blueprint(converter_bp)
+    app.register_blueprint(stamp_bp, url_prefix='/stamp')
+    app.register_blueprint(ocr_bp)  # Add this line to register OCR blueprint
     
     return app
 
 def print_startup_info():
     """Print startup information"""
-    print("PDF to Images & OCR API Server with S3 Integration")
-    print("=" * 60)
+    print("PDF to Images & OCR API Server with S3 Integration & Stamp Detection")
+    print("=" * 75)
     print("PDF Conversion Endpoints:")
     print("  POST /convert - Convert PDF to images")
     print("  GET /status/<job_id> - Check conversion status")
@@ -30,6 +35,11 @@ def print_startup_info():
     print("\nOCR Endpoints:")
     print("  POST /ocr/roll/<roll_no>/uuid/<uuid> - Perform OCR on answer sheets")
     print("  GET /ocr/test-django - Test Django API connection")
+    print("\nStamp Detection Endpoints:")
+    print("  POST /stamp/process-stamps/<job_id> - Process images from S3 for stamp detection")
+    print("  GET /stamp/health - Stamp detection service health check")
+    print("  GET /stamp/config - Stamp detection service configuration")
+    print("  POST /stamp/test-vlm - Test VLM extraction with sample image")
     print("\nSystem Endpoints:")
     print("  GET /health - Health check")
     print("  GET /s3-config - S3 configuration status")
@@ -40,9 +50,12 @@ def print_startup_info():
     print(f"  Azure OCR Endpoint: {Config.AZURE_ENDPOINT}")
     print(f"  Django API Base: {Config.DJANGO_API_BASE}")
     print(f"  Webhook URL: {Config.WEBHOOK_URL}")
+    print(f"  Stamp Webhook URL: {Config.STAMP_WEBHOOK_URL}")
+    print(f"  OpenAI API Configured: {'Yes' if Config.OPENAI_API_KEY != 'sk-proj-YOUR_ACTUAL_API_KEY_HERE' else 'No'}")
     print("\nEnvironment Variables:")
     print("  PDF Conversion: S3_BUCKET, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_REGION")
     print("  OCR Service: AZURE_SUBSCRIPTION_KEY, AZURE_ENDPOINT, DJANGO_API_BASE, WEBHOOK_URL")
+    print("  Stamp Detection: OPENAI_API_KEY, STAMP_WEBHOOK_URL, DEFAULT_CROP_PERCENTAGE")
     
     # Check for required dependencies
     try:
@@ -56,6 +69,24 @@ def print_startup_info():
         print("✓ Requests library available")
     except ImportError:
         print("✗ ERROR: Requests library not available. Install with: pip install requests")
+    
+    try:
+        import cv2
+        print("✓ OpenCV available for stamp detection")
+    except ImportError:
+        print("✗ ERROR: OpenCV not available. Install with: pip install opencv-python")
+    
+    try:
+        import numpy as np
+        print("✓ NumPy available")
+    except ImportError:
+        print("✗ ERROR: NumPy not available. Install with: pip install numpy")
+    
+    try:
+        import boto3
+        print("✓ Boto3 available for S3 operations")
+    except ImportError:
+        print("✗ ERROR: Boto3 not available. Install with: pip install boto3")
 
 if __name__ == '__main__':
     # Ensure temp directory exists
