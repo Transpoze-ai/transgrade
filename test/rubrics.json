@@ -1,0 +1,477 @@
+[
+  {
+    "id": 1,
+    "marks": 2,
+    "criteria": {
+      "examples": [
+        "Universe as all existing matter and space considered as a whole.",
+        "Consideration of galaxies, stars, planets."
+      ],
+      "key_concept": "Definition of the universe as a vast space encompassing all celestial bodies.",
+      "additional_points": [
+        "Mention of the Big Bang Theory.",
+        "Inclusion of the concept of time and space."
+      ]
+    },
+    "question": "What is the universe?",
+    "reference_answer": "The universe is all of space and time, including all forms of matter, energy, planets, stars, galaxies, and the contents of intergalactic space.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 2,
+    "marks": 2,
+    "criteria": {
+      "examples": [
+        "Accessibility to resources like water and fertile land.",
+        "Flat terrain easier for construction."
+      ],
+      "key_concept": "Understanding of settlement patterns in geography.",
+      "additional_points": [
+        "Economic opportunities in agriculture.",
+        "Transportation advantages due to flat land."
+      ]
+    },
+    "question": "Why do plain areas have dense settlements?",
+    "reference_answer": "Plain areas have dense settlements due to their flat terrain which makes construction easier and provides access to resources such as water and fertile soil for agriculture.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 3,
+    "marks": 2,
+    "criteria": {
+      "examples": [
+        "Democracy, Monarchy",
+        "Dictatorship, Oligarchy"
+      ],
+      "key_concept": "Basic definition and classifications of government.",
+      "additional_points": [
+        "Role of government in society.",
+        "Comparison between types."
+      ]
+    },
+    "question": "What is a Government? What are the different types of governments?",
+    "reference_answer": "A government is an organization or system that governs a community or unit. Different types of governments include democracy, monarchy, dictatorship, and oligarchy, each with its own characteristics and mechanisms of power.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 4,
+    "marks": 2,
+    "criteria": {
+      "examples": [
+        "Cultural norms prioritizing boys’ education.",
+        "Economic reasons needing girls at home for chores."
+      ],
+      "key_concept": "Understanding societal attitudes towards girls' education.",
+      "additional_points": [
+        "Fear of social stigma.",
+        "Lack of infrastructure for girls’ schools."
+      ]
+    },
+    "question": "What were the different reasons people had for not sending girls to school before freedom?",
+    "reference_answer": "Before freedom, reasons for not sending girls to school included cultural norms that prioritized boys' education, economic needs requiring girls to assist at home, and the belief that education was not necessary for girls.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 5,
+    "marks": 4,
+    "criteria": {
+      "examples": [
+        "Navigational aids",
+        "Planning travel routes",
+        "Understanding geography"
+      ],
+      "key_concept": "Practical applications of maps in various contexts.",
+      "additional_points": [
+        "Identifying locations of services.",
+        "Cultural and historical context learning."
+      ]
+    },
+    "question": "What are the uses of Maps in our daily life?",
+    "reference_answer": "Maps are used in daily life for navigation, planning travel routes, understanding geographical distributions and features, and gaining insights into culture and history through geographical contexts.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 6,
+    "marks": 4,
+    "criteria": {
+      "examples": [
+        "Use of technology in farming",
+        "Transportation and trade advancements",
+        "Changes in social structure"
+      ],
+      "key_concept": "Contrast between modern and historical agricultural practices and lifestyles.",
+      "additional_points": [
+        "Education and access to information.",
+        "Market systems compared to subsistence methods."
+      ]
+    },
+    "question": "List out three ways in which the present life of farmers and herders are different from that of the early people.",
+    "reference_answer": "1. Present farmers use advanced machinery whereas early people relied on manual labor. 2. Modern transportation allows easy movement of goods leading to better market access, unlike early subsistence life. 3. Education has improved access to agricultural techniques compared to early life where knowledge was passed down through generations.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 7,
+    "marks": 4,
+    "criteria": {
+      "examples": [
+        "Principles of non-violence",
+        "Promotion of welfare",
+        "Cultural integration"
+      ],
+      "key_concept": "Understanding Ashoka's contributions and their contemporary significance.",
+      "additional_points": [
+        "Importance of tolerance and ethical governance.",
+        "Impact on modern-day Buddhism and peace movements."
+      ]
+    },
+    "question": "Explain the relevance of Ashoka Damma today. Appreciate the greatness of Ashoka.",
+    "reference_answer": "Today, Ashoka's Dhamma remains relevant as it emphasizes non-violence and compassion, principles we desperately need in a conflict-ridden world. His commitment to the welfare of all beings and the promotion of ethical governance showcase his greatness and relevance in today's pursuit of peace and harmony.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 14,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Earth",
+        "Mars"
+      ],
+      "key_concept": "Knowledge of the solar system.",
+      "additional_points": [
+        "Identification of the correct order of planets",
+        "Understanding the definition of 'nearest'"
+      ]
+    },
+    "question": "Which is the third nearest planet to the sun?",
+    "reference_answer": "Earth is the third planet from the sun.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 15,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Equinoxes"
+      ],
+      "key_concept": "Understanding of solar position and its relation to Earth's equator.",
+      "additional_points": [
+        "Knowledge about seasons",
+        "Basic understanding of Earth's tilt and orbit"
+      ]
+    },
+    "question": "Sunrays fall directly on the Equator on?",
+    "reference_answer": "Around the equinoxes, which occur in March and September.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 16,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Southern Asia",
+        "Near the Indian Ocean"
+      ],
+      "key_concept": "Geographical location of India.",
+      "additional_points": [
+        "Identification of neighboring countries",
+        "Understanding of regional context"
+      ]
+    },
+    "question": "Our India is located in?",
+    "reference_answer": "India is located in South Asia.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 17,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Water bodies",
+        "Rivers"
+      ],
+      "key_concept": "Understanding cartographic symbols.",
+      "additional_points": [
+        "Recognition of types of maps",
+        "Knowledge of symbolization in mapping"
+      ]
+    },
+    "question": "The blue colour is used for showing?",
+    "reference_answer": "It represents water bodies like oceans and lakes.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 18,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Political maps",
+        "Physical maps"
+      ],
+      "key_concept": "Understanding different types of maps.",
+      "additional_points": [
+        "Ability to interpret map details",
+        "Knowledge of map legends"
+      ]
+    },
+    "question": "The countries and divisions on the Earth are shown in this Map?",
+    "reference_answer": "A political map shows countries and their divisions.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 19,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Arma Konda",
+        "Anamudi"
+      ],
+      "key_concept": "Knowledge of geographic features in India.",
+      "additional_points": [
+        "Recognition of major mountain ranges",
+        "Knowledge of geography of the Eastern Ghats"
+      ]
+    },
+    "question": "The highest peak in Eastern Ghats?",
+    "reference_answer": "The highest peak in the Eastern Ghats is Arma Konda.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 20,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Southeast Asia",
+        "Coastal regions"
+      ],
+      "key_concept": "Knowledge of ecological practices.",
+      "additional_points": [
+        "Understanding of ecological impacts",
+        "Knowledge of economic aspects of aquaculture"
+      ]
+    },
+    "question": "Aquaculture is extensively practiced in this region?",
+    "reference_answer": "Aquaculture is extensively practiced in Southeast Asia.",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 21,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Neolith",
+        "Mesolith"
+      ],
+      "key_concept": "Identification of the correct type of stone tool.",
+      "additional_points": [
+        "Answer must match the correct historical period."
+      ]
+    },
+    "question": "A new kind of stone tool is known as ( . )",
+    "reference_answer": "Neolith",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 22,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Renigunta - Chittor",
+        "Belum - Kurnool"
+      ],
+      "key_concept": "Recognizing incorrect geographical pairings.",
+      "additional_points": [
+        "Understanding of regional geography is required."
+      ]
+    },
+    "question": "Find the wrong set ( . )",
+    "reference_answer": "Renigunta - Chittor",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 23,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Drainage system",
+        "Railways"
+      ],
+      "key_concept": "Knowledge of ancient civilizations' infrastructure.",
+      "additional_points": [
+        "Correct answer must be related to MohenJodaro."
+      ]
+    },
+    "question": "MohenJodaro had a well designed ( . )",
+    "reference_answer": "Drainage system",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 24,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Harappa",
+        "KaliBangan"
+      ],
+      "key_concept": "Identification of archaeological sites.",
+      "additional_points": [
+        "Only one answer corresponds to the Great Bath's location."
+      ]
+    },
+    "question": "The great Bath was found in ( . )",
+    "reference_answer": "Harappa",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 25,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Horse",
+        "Cow"
+      ],
+      "key_concept": "Understanding of historical rituals.",
+      "additional_points": [
+        "Focus on specific historical context of Ashwamedha."
+      ]
+    },
+    "question": "The Ashwamedha was the sacrifice of the ( . )",
+    "reference_answer": "Horse",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 26,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Kosala",
+        "Kuru"
+      ],
+      "key_concept": "Knowledge of ancient Indian Janapadas.",
+      "additional_points": [
+        "Correct Janapada must be named based on historical texts."
+      ]
+    },
+    "question": "Ayodya belonged to this Janapada ( . )",
+    "reference_answer": "Kosala",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 27,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Vijayanagara",
+        "Nagarjunakonda"
+      ],
+      "key_concept": "Identifying significant historical capitals.",
+      "additional_points": [
+        "Only one answer correlates with Ikshavaku history."
+      ]
+    },
+    "question": "This was the capital of Ikshavakus ( . )",
+    "reference_answer": "Vijayapuri",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 28,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Empire",
+        "Kingdom"
+      ],
+      "key_concept": "Defining political terms.",
+      "additional_points": [
+        "Correct political structure terminology is key."
+      ]
+    },
+    "question": "A group of countries ruled by one ruler ( . )",
+    "reference_answer": "Empire",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 29,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Village",
+        "State"
+      ],
+      "key_concept": "Understanding levels of governance.",
+      "additional_points": [
+        "Identification of local governance structure is required."
+      ]
+    },
+    "question": "The Bottom level governance of Indian democracy is called this ( . )",
+    "reference_answer": "Village",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 30,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Right to vote",
+        "Right to elect"
+      ],
+      "key_concept": "Understanding political rights.",
+      "additional_points": [
+        "Clear understanding of the term franchise."
+      ]
+    },
+    "question": "Franchise means ( . )",
+    "reference_answer": "Right to vote",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 31,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "21 years",
+        "18 years"
+      ],
+      "key_concept": "Knowledge of election laws.",
+      "additional_points": [
+        "Must adhere to legal age requirements for Panchayat."
+      ]
+    },
+    "question": "The age limit for the contestant as village Panchyat member ( . )",
+    "reference_answer": "21 years",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 32,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Amritsar",
+        "Lumbini"
+      ],
+      "key_concept": "Identifying significant religious landmarks.",
+      "additional_points": [
+        "Specificity regarding the location of the Golden Temple."
+      ]
+    },
+    "question": "The Golden temple is located at ( . )",
+    "reference_answer": "Amritsar",
+    "expected_answer_type": "textual"
+  },
+  {
+    "id": 33,
+    "marks": 1,
+    "criteria": {
+      "examples": [
+        "Savitri Bai Phule",
+        "Sarojini Naidu"
+      ],
+      "key_concept": "Understanding historical figures in feminism.",
+      "additional_points": [
+        "Must match historical context and recognition."
+      ]
+    },
+    "question": "Who is regarded as the 'Mother of feminism in India' ( . )",
+    "reference_answer": "Savitri Bai Phule",
+    "expected_answer_type": "textual"
+  }
+]
