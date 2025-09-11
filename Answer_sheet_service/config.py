@@ -30,6 +30,9 @@ class Config:
     WEBHOOK_TIMEOUT = int(os.environ.get('WEBHOOK_TIMEOUT', 30))
     WEBHOOK_MAX_RETRIES = int(os.environ.get('WEBHOOK_MAX_RETRIES', 3))
    
+    # Chunker API Config
+    DJANGO_OCR_FETCH = os.environ.get('DJANGO_OCR_FETCH')
+    WEBHOOK_CHUNK_URL = os.environ.get('WEBHOOK_CHUNK_URL')
     # Azure OCR Limits
     MIN_DIMENSION = int(os.environ.get('MIN_DIMENSION', 50))
     MAX_DIMENSION = int(os.environ.get('MAX_DIMENSION', 10000))
@@ -46,3 +49,11 @@ class Config:
     STAMP_MAX_IMAGE_WIDTH = int(os.environ.get('STAMP_MAX_IMAGE_WIDTH', 1600))
     STAMP_MIN_CONTOUR_AREA_RATIO = float(os.environ.get('STAMP_MIN_CONTOUR_AREA_RATIO', 0.001))
     STAMP_MAX_CONTOUR_AREA_RATIO = float(os.environ.get('STAMP_MAX_CONTOUR_AREA_RATIO', 0.15))
+    
+    # Chunker Configuration
+    CHUNKER_WEBHOOK_URL = os.environ.get('CHUNKER_WEBHOOK_URL', 'https://transback.transpoze.ai/api/chunk-data/process-chunk-json/')
+    CHUNKER_DEFAULT_MAX_CHUNK_SIZE = int(os.environ.get('CHUNKER_DEFAULT_MAX_CHUNK_SIZE', 1500))
+    
+    # OpenAI Configuration for Chunker
+    CHUNKER_OPENAI_MODEL = os.environ.get('CHUNKER_OPENAI_MODEL', 'gpt-3.5-turbo')
+    CHUNKER_CONFIDENCE_THRESHOLD = float(os.environ.get('CHUNKER_CONFIDENCE_THRESHOLD', 0.6))
