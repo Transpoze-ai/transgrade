@@ -296,7 +296,7 @@ def main():
     Example usage of the RubricGrader system with your student data format
     """
     # Initialize with your OpenAI API key and rubric file path
-    API_KEY = os.environ.get('OPENAI_API_KEY')  # Replace with your actual API key
+
     RUBRIC_PATH = "rubrics.json"  # Path to your rubric JSON file
     
     grader = RubricGrader(API_KEY, RUBRIC_PATH)
@@ -306,10 +306,11 @@ def main():
     
     # Example student submission in your format
     student_submission = {
-         "question": "List out three ways in which the present life of farmers and herders are different from that of the early people.",
-         "student_answer": "sai is a good boy from andhra",
-         "reference_answer": "1. Present farmers use advanced machinery whereas early people relied on manual labor. 2. Modern transportation allows easy movement of goods leading to better market access, unlike early subsistence life. 3. Education has improved access to agricultural techniques compared to early life where knowledge was passed down through generations.",
+                "question": "Mention some features of arid soil.",
+                "reference_answer": "Features of arid soil include low moisture content, high permeability resulting in rapid drainage, and nutrient deficiency, making it challenging for plant growth.",
+                "student_answer": "The following are the features of arid soil 7A) 1) The colour of the arid soil ranges from red to brown. 2) Arid soil is generally sandy and texture and saline in nature. 3) The soil lack of human and mostuire becomes dry climate, high temperature and fast evapartion 4) The lower parts of the soil are occupied by the kankar because of clacium constitution of water in lower layers."
     }
+
     
     # Grade the submission
     print("--- Grading Student Submission ---")
